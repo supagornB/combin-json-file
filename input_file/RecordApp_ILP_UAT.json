@@ -1,0 +1,228 @@
+{
+  "recordApplicationRequest": {
+    "policy": {
+      "investment": {
+        "investmentRisk": {
+          "rpqScore": 30,
+          "riskLevel": 7,
+          "testnut": "sdfsdfsdf",
+          "questionnaires": [
+            {
+              "id": 1,
+              "testnut": "sdfsdfsdf",
+              "choices": [
+                {
+                  "value": 1,
+                  "choice": "มากกว่า 55 ปี"
+                },
+                {
+                  "value": 2,
+                  "testnut": "sdfsdfsdf",
+                  "choice": "45 – 55 ปี"
+                },
+                {
+                  "value": 3,
+                  "choice": "35 – 44 ปี"
+                },
+                {
+                  "value": 4,
+                  "choice": "น้อยกว่า 35 ปี"
+                }
+              ],
+              "hasScore": "true",
+              "question": "ปัจจุบันท่านอายุเท่าไร",
+              "selectedChoice": 3
+            },
+            {
+              "id": 2,
+              "choices": [
+                {
+                  "value": 1,
+                  "choice": "มากกว่า 75% ของรายได้ทั้งหมด"
+                },
+                {
+                  "value": 2,
+                  "choice": "มากกว่า 50% ถึง 75% ของรายได้ทั้งหมด"
+                },
+                {
+                  "value": 3,
+                  "choice": "มากกว่า 25% ถึง 50% ของรายได้ทั้งหมด"
+                },
+                {
+                  "value": 4,
+                  "testnut": "sdfsdfsdf",
+                  "choice": "น้อยกว่าหรือเท่ากับ 25% ของรายได้ทั้งหมด"
+                }
+              ],
+              "hasScore": "true",
+              "question": "ปัจจุบันท่านมีภาระทางการเงินและค่าใช้จ่ายประจำ เช่น ค่าผ่อนบ้าน รถ ค่าใช้จ่ายส่วนตัวและค่าเลี้ยงดูครอบครัวเป็นสัดส่วนเท่าใด",
+              "selectedChoice": 3
+            },
+            {
+              "id": 3,
+              "choices": [
+                {
+                  "value": 1,
+                  "choice": "มีทรัพย์สินน้อยกว่าหนี้สิน"
+                },
+                {
+                  "value": 2,
+                  "choice": "มีทรัพย์สินเท่ากับหนี้สิน"
+                },
+                {
+                  "value": 3,
+                  "choice": "มีทรัพย์สินมากกว่าหนี้สิน"
+                },
+                {
+                  "value": 4,
+                  "choice": "มีความมั่นใจว่ามีเงินออมหรือเงินลงทุนเพียงพอสำหรับการใช้ชีวิตหลังเกษียณอายุแล้ว"
+                }
+              ],
+              "hasScore": "true",
+              "question": "ท่านมีสถานภาพทางการเงินในปัจจุบันอย่างไร",
+              "selectedChoice": "3"
+            },
+            {
+              "id": 4,
+              "choices": [
+                {
+                  "value": 1,
+                  "choice": "เงินฝากธนาคาร"
+                },
+                {
+                  "value": 2,
+                  "choice": "พันธบัตรรัฐบาล หรือกองทุนรวมพันธบัตรรัฐบาล"
+                },
+                {
+                  "value": 3,
+                  "choice": "หุ้นกู้ หรือกองทุนรวมตราสารหนี้"
+                },
+                {
+                  "value": 4,
+                  "choice": "หุ้นสามัญ หรือกองทุนรวมหุ้น หรือสินทรัพย์อื่นที่มีความเสี่ยงสูง"
+                }
+              ],
+              "hasScore": "true",
+              "question": "ท่านเคยมีประสบการณ์ หรือมีความรู้ในการลงทุนในทรัพย์สินกลุ่มใดต่อไปนี้บ้าง (เลือกได้มากกว่า 1 ข้อ โดยให้เลือกข้อที่คะแนนสูงสุดมาใช้นับคะแนน)",
+              "selectedChoice": [
+                3
+              ]
+            },
+            {
+              "id": 5,
+              "choices": [
+                {
+                  "value": 1,
+                  "choice": "ไม่เกิน 1ปี"
+                },
+                {
+                  "value": 2,
+                  "choice": "1 – ไม่เกิน 3 ปี"
+                },
+                {
+                  "value": 3,
+                  "choice": "3 – 5 ปี"
+                },
+                {
+                  "value": 4,
+                  "choice": "มากกว่า 5 ปี"
+                }
+              ],
+              "hasScore": "true",
+              "question": "ระยะเวลาที่ท่านคาดว่าจะไม่มีความจำเป็นต้องใช้เงินลงทุนนี้",
+              "selectedChoice": 3
+            }
+          ],
+          "allowForeignInvestment": "false",
+          "allowHigherRiskInvestment": "false"
+        }
+      },
+      "hasForeignerQuestionnaire": [
+        {
+          "numberOfChildrenAndAge": [
+            {
+              "numberOfChildren": 0,
+              "ageOfChild": [
+                
+              ]
+            }
+          ],
+          "previousOccupationBeforeComingToThailand": {
+            
+          },
+          "workingAddressOfSpouse": [
+            {
+              "addressLine4": " "
+            }
+          ],
+          "ageOfSpouse": {
+            
+          },
+          "homeAddressOfSpouse": [
+            {
+              "addressLine4": " "
+            }
+          ]
+        }
+      ],
+      "auraSessionId": "c807d4e0-9bd1-11ed-8d68-03bca9f5198c",
+      "policySubmitDT": "2023-01-24",
+      "forLifeUnitofExposure": [
+        {
+          "tempLoadingYrCNT": "",
+          "basicRegularPremiumAMT": "18000.00",
+          "hasBeneficiaryInformationIn": [
+            {
+              "beneficiaryFLG": "",
+              "canBeIndividual": [
+                {
+                  "birthDT": "1987-09-11",
+                  "genderCD": "F",
+                  "firstNM": "น.ส.Bene",
+                  "hasAddressesIn": [
+                    {
+                      "mobilePhoneNO": "",
+                      "addressLine1": "G Tower",
+                      "addressLine2": "ต.หนองจอก",
+                      "addressLine3": "อ.บางปะกง",
+                      "addressLine4": "ฉะเชิงเทรา 24130"
+                    }
+                  ],
+                  "lastNM": "One"
+                }
+              ],
+              "hasBeneficiaryXUoeDetailsIn": [
+                {
+                  "beneficiaryTypeCD": "R",
+                  "benefitDistributionPCT": "100",
+                  "relationshipToInsuredCD": "SPOUSE"
+                }
+              ]
+            }
+          ],
+          "hasCoverageDetailsIn": {
+            "isAssociatedWithLifeInsuranceProduct": [
+              {
+                "planClassCD": "S",
+                "insuranceProductCd": "RPUDR"
+              }
+            ],
+            "baseCoverageIndicatorCd": "P"
+          },
+          "tempLoadingRT": "",
+          "currAMT": "1980000"
+        }
+      ],
+      "auwriteDecision": "STP",
+      "hasDetailsOfPolicyIn": [
+        {
+          "dboIND": "2"
+        }
+      ],
+      "auDecision": "STP",
+      "currencyCD": "THB",
+      "applicationSignatureDT": "2023-01-24",
+      "testnut":"asdasd"
+    }
+  }
+}
